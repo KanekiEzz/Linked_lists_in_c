@@ -38,3 +38,14 @@ typedef struct node {
     int val;
     struct node *next;
 } node_t;
+
+
+```c
+t_list *ft_lstnew(void *content);
+void print_list(t_list *head);
+void add_list_first_push(t_list **head);
+void add_list_end_push(t_list *head);
+void remove_first_items(t_list **head);
+void remove_last_items(t_list **head);
+void remove_by_index(t_list **head, t_list *node_to_remove);
+
