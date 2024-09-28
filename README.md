@@ -33,7 +33,7 @@ A linked list is managed through a pointer variable that points to the first nod
 ------------------------------              ------------------------------
 
 
-```c
+
 typedef struct node {
     int val;
     struct node *next;
